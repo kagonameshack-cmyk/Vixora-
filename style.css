@@ -34,55 +34,6 @@ text-decoration:none;
 }
 
 .hero{
-min-height:90vh;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:20px;
-}
-
-.hero h1{
-font-size:4rem;
-max-width:800px;
-}
-
-.hero p{
-margin-top:20px;
-
-max-width:600px;
-
-color:#a3a3a3;
-
-line-height:1.7;
-}
-
-.hero button{
-margin-top:30px;
-
-padding:18px 40px;
-
-border:none;
-
-border-radius:14px;
-
-background:#8B5CF6;
-
-color:white;
-
-font-size:18px;
-
-cursor:pointer;
-  }
-
-.hero{
 min-height:100vh;
 
 display:grid;
