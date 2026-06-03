@@ -718,3 +718,105 @@ color:white;
 
 cursor:pointer;
   }
+
+.why-vixora{
+padding:120px 8%;
+}
+
+.why-vixora h2{
+font-size:3rem;
+margin-bottom:50px;
+text-align:center;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.why-card{
+padding:40px;
+
+border-radius:24px;
+
+background:
+rgba(255,255,255,.03);
+
+border:
+1px solid rgba(255,255,255,.06);
+
+transition:.4s;
+}
+
+.why-card:hover{
+transform:translateY(-10px);
+}
+
+.why-card p{
+margin-top:15px;
+color:#a1a1aa;
+line-height:1.8;
+  }
+
+.cta{
+padding:160px 8%;
+
+text-align:center;
+}
+
+.cta h2{
+font-size:clamp(3rem,6vw,5rem);
+
+max-width:900px;
+
+margin:auto;
+}
+
+.cta p{
+margin-top:20px;
+
+color:#a1a1aa;
+}
+
+.cta button{
+margin-top:40px;
+
+padding:20px 45px;
+
+border:none;
+
+border-radius:18px;
+
+background:
+linear-gradient(
+135deg,
+#6366f1,
+#8b5cf6
+);
+
+color:white;
+
+font-size:1rem;
+
+cursor:pointer;
+  }
+
+footer{
+padding:60px 8%;
+
+text-align:center;
+
+border-top:
+1px solid rgba(255,255,255,.05);
+}
+
+footer h3{
+letter-spacing:4px;
+}
+
+footer p{
+margin-top:10px;
+color:#71717a;
+}
