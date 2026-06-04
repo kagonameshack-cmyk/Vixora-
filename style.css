@@ -635,23 +635,48 @@ gap:25px;
 }
 
 .creator-card{
-padding:40px;
+height:420px;
 
-border-radius:24px;
+border-radius:30px;
+
+overflow:hidden;
+
+position:relative;
+
+display:flex;
+
+align-items:flex-end;
+
+padding:30px;
+
+background-size:cover;
+background-position:center;
+
+transition:.5s;
+}
+
+.creator-card::before{
+content:"";
+
+position:absolute;
+inset:0;
 
 background:
-rgba(255,255,255,.03);
-
-border:
-1px solid rgba(255,255,255,.06);
-
-text-align:center;
-
-transition:.4s;
+linear-gradient(
+180deg,
+transparent,
+rgba(0,0,0,.85)
+);
 }
 
 .creator-card:hover{
-transform:translateY(-10px);
+transform:
+translateY(-12px);
+}
+
+.creator-info{
+position:relative;
+z-index:2;
 }
 
 .creator-avatar{
@@ -720,8 +745,17 @@ cursor:pointer;
   }
 
 .why-vixora{
-padding:120px 8%;
-}
+display:grid;
+
+grid-template-columns:
+1fr 1fr;
+
+gap:100px;
+
+align-items:center;
+
+padding:150px 8%;
+  }
 
 .why-vixora h2{
 font-size:3rem;
@@ -758,6 +792,26 @@ transform:translateY(-10px);
 margin-top:15px;
 color:#a1a1aa;
 line-height:1.8;
+  }
+
+.glass-panel{
+
+height:500px;
+
+border-radius:40px;
+
+background:
+rgba(255,255,255,.03);
+
+backdrop-filter:
+blur(30px);
+
+border:
+1px solid rgba(255,255,255,.08);
+
+box-shadow:
+0 40px 100px
+rgba(99,102,241,.15);
   }
 
 .cta{
