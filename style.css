@@ -442,7 +442,7 @@ transform:rotate(-6deg);
 }
 
 .poster{
-
+width:190px;
 height:320px;
 
 border-radius:24px;
@@ -452,13 +452,13 @@ overflow:hidden;
 position:relative;
 
 background-size:cover;
-
 background-position:center;
+background-repeat:no-repeat;
 
 transition:.4s ease;
 
-animation:
-float 8s ease-in-out infinite;
+/* animation removed */
+}
 
 border:
 1px solid rgba(255,255,255,.06);
