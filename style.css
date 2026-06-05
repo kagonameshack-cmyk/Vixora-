@@ -322,6 +322,20 @@ margin-top:25px;
 margin-top:50px;
 }
 
+.mobile-hero-image{
+
+display:block;
+
+width:100%;
+min-height:320px;
+
+background-image:url("images/hero-mobile.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+border:2px solid red;
+}
 
 /* ==================================================
    HERO STATS
