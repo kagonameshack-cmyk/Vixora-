@@ -1396,6 +1396,20 @@ height:420px;
 height:380px;
 }
 
+.featured-premiere{
+
+height:auto;
+
+padding:40px 30px;
+
+margin:80px 5%;
+}
+
+.premiere-content h2{
+
+font-size:3rem;
+}   
+
    }
 
 /* ==========================
@@ -1709,3 +1723,96 @@ color:white;
 
 cursor:pointer;
    }
+
+/* ========================================
+   FEATURED PREMIERE
+======================================== */
+
+.featured-premiere{
+
+height:500px;
+
+margin:120px 8%;
+
+border-radius:32px;
+
+display:flex;
+align-items:center;
+
+padding:60px;
+
+position:relative;
+
+overflow:hidden;
+
+background-image:
+linear-gradient(
+90deg,
+rgba(0,0,0,.75),
+rgba(0,0,0,.35)
+),
+
+url("images/featured-premiere.jpg");
+
+background-size:cover;
+background-position:center;
+
+border:
+1px solid rgba(255,255,255,.06);
+
+box-shadow:
+0 30px 80px
+rgba(0,0,0,.4);
+}
+
+.premiere-content{
+
+max-width:600px;
+
+position:relative;
+
+z-index:2;
+}
+
+.premiere-content span{
+
+display:inline-block;
+
+color:#c084fc;
+
+letter-spacing:3px;
+
+font-size:13px;
+
+margin-bottom:20px;
+}
+
+.premiere-content h2{
+
+font-size:
+clamp(3rem,6vw,5rem);
+
+line-height:1;
+
+margin-bottom:25px;
+}
+
+.premiere-content p{
+
+font-size:1.1rem;
+
+line-height:1.9;
+
+color:#d4d4d8;
+
+margin-bottom:35px;
+}
+
+.premiere-buttons{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+     }
