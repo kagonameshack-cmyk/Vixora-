@@ -1950,3 +1950,191 @@ color:#d4d4d8;
 
 margin-bottom:35px;
                }
+
+/* ========================================
+   FEATURED CREATORS ROW
+======================================== */
+
+.featured-creators{
+
+padding:120px 8%;
+}
+
+.featured-creators-row{
+
+display:flex;
+
+gap:25px;
+
+overflow-x:auto;
+
+padding-bottom:10px;
+
+scrollbar-width:none;
+}
+
+.featured-creators-row::-webkit-scrollbar{
+display:none;
+}
+
+.creator-mini-card{
+
+min-width:280px;
+
+padding:25px;
+
+border-radius:28px;
+
+background:
+rgba(255,255,255,.03);
+
+border:
+1px solid rgba(255,255,255,.06);
+
+backdrop-filter:blur(20px);
+
+text-align:center;
+}
+
+.creator-mini-card img{
+
+width:90px;
+height:90px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:20px;
+}
+
+.creator-mini-card h3{
+
+margin-bottom:10px;
+}
+
+.creator-mini-card p{
+
+color:#a1a1aa;
+
+margin-bottom:20px;
+}
+
+.creator-mini-card button{
+
+padding:12px 24px;
+
+border:none;
+
+border-radius:999px;
+
+cursor:pointer;
+
+color:white;
+
+background:
+linear-gradient(
+135deg,
+#7c3aed,
+#d946ef
+);
+   }
+
+/* ========================================
+   EXPLORE CATEGORIES
+======================================== */
+
+.explore-categories{
+
+padding:120px 8%;
+}
+
+.explore-category-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+}
+
+.explore-category-card{
+
+height:220px;
+
+border-radius:30px;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+gap:20px;
+
+font-size:3rem;
+
+background:
+rgba(255,255,255,.03);
+
+border:
+1px solid rgba(255,255,255,.06);
+
+backdrop-filter:blur(20px);
+
+transition:.4s ease;
+}
+
+.explore-category-card:hover{
+
+transform:
+translateY(-10px);
+
+box-shadow:
+0 20px 50px
+rgba(139,92,246,.2);
+}
+
+.explore-category-card h3{
+
+font-size:1.3rem;
+   }
+
+/* ========================================
+   EXPLORE CTA
+======================================== */
+
+.explore-final-cta{
+
+padding:200px 8%;
+
+text-align:center;
+}
+
+.explore-final-cta h2{
+
+font-size:
+clamp(3rem,7vw,6rem);
+
+line-height:1.05;
+
+max-width:900px;
+
+margin:auto;
+}
+
+.explore-final-cta p{
+
+margin-top:25px;
+
+font-size:1.1rem;
+
+color:#a1a1aa;
+}
+
+.explore-final-cta button{
+
+margin-top:45px;
+}
